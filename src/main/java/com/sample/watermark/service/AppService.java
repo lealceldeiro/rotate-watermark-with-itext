@@ -73,10 +73,8 @@ public class AppService {
     }
 
     /**
-     * Returns the same document with the watermark stamped on it. Read more at:
-     * https://developers.itextpdf.com/examples/stamping-content-existing-pdfs/watermark-examples#1040-transparentwatermark2.java
-     * and https://stackoverflow.com/a/29587148/5640649
-     * @param documentBytes Byte array of the pdf which is going to be exported
+     * Returns the same document with the watermark stamped on it.
+     * @param documentBytes Byte array of the pdf which is going to be returned with the watermark
      * @return byte[] with the same byte array provided but now with the watermark stamped on it.
      * @throws IOException If any IO exception occurs while adding the watermark
      * @throws DocumentException If any DocumentException exception occurs while adding the watermark
