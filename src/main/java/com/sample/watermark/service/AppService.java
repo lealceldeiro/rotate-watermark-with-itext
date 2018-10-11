@@ -104,7 +104,7 @@ public class AppService {
             over.saveState();
             over.setGState(gs1);
             // add text
-            ColumnText.showTextAligned(over, Element.ALIGN_CENTER, phrase, x, y, 0);
+            ColumnText.showTextAligned(over, Element.ALIGN_CENTER, phrase, x, y, 45f);
             over.restoreState();
         }
         stamper.close();
